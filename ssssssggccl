@@ -1,0 +1,69 @@
+warning: LF will be replaced by CRLF in .babelrc.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in .editorconfig.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in index.html.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in package.json.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in server.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in webpack.config.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in webpack.config.production.js.
+The file will have its original line endings in your working directory.
+[1mdiff --git a/App.js b/App.js[m
+[1mdeleted file mode 100644[m
+[1mindex 3604504..0000000[m
+[1m--- a/App.js[m
+[1m+++ /dev/null[m
+[36m@@ -1,8 +0,0 @@[m
+[31m-import React, { Component } from 'react';[m
+[31m-import WNdCHeader from './src/components/wndc-header';[m
+[31m-[m
+[31m-export default class App extends Component {[m
+[31m-    render() {[m
+[31m-        return ( <WNdCHeader /> );[m
+[31m-    }[m
+[31m-}[m
+\ No newline at end of file[m
+[1mdiff --git a/README.md b/README.md[m
+[1mindex bf500d4..da48f7f 100644[m
+[1m--- a/README.md[m
+[1m+++ b/README.md[m
+[36m@@ -1,4 +1,4 @@[m
+[31m-# React ES6 Webpack Boilerplate[m
+[32m+[m[32m# World News dot Com[m
+ [m
+ World News dot Com, a project to startup with.[m
+ * [React](https://github.com/facebook/react)[m
+[1mdiff --git a/index.js b/index.js[m
+[1mdeleted file mode 100644[m
+[1mindex ec62097..0000000[m
+[1m--- a/index.js[m
+[1m+++ /dev/null[m
+[36m@@ -1,8 +0,0 @@[m
+[31m-import React from 'react';[m
+[31m-import { render } from 'react-dom';[m
+[31m-import App from './App';[m
+[31m-[m
+[31m-render([m
+[31m-  <App />,[m
+[31m-  document.getElementById('root')[m
+[31m-);[m
+[1mdiff --git a/wndc-header.js b/wndc-header.js[m
+[1mdeleted file mode 100644[m
+[1mindex fd5d81d..0000000[m
+[1m--- a/wndc-header.js[m
+[1m+++ /dev/null[m
+[36m@@ -1,8 +0,0 @@[m
+[31m-import React, { Component } from 'react';[m
+[31m-[m
+[31m-export default class WNdCHeader extends Component {[m
+[31m-   [m
+[31m-   render() {[m
+[31m-       return <h1>Welcome to WNdC, the one place for all NEWS!</h1>[m
+[31m-   }[m
+[31m-}[m
+warning: LF will be replaced by CRLF in README.md.
+The file will have its original line endings in your working directory.

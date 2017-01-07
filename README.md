@@ -1,4 +1,4 @@
-# React ES6 Webpack Boilerplate
+# World News dot Com
 
 World News dot Com, a project to startup with.
 * [React](https://github.com/facebook/react)
